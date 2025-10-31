@@ -2,7 +2,7 @@
 
 Modern portfolio website built with Next.js 14, featuring glassmorphism design and neon cyberpunk aesthetics with 3D particle effects.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 14 (App Router)
 - **Styling**: TailwindCSS with custom cyberpunk theme
@@ -12,19 +12,19 @@ Modern portfolio website built with Next.js 14, featuring glassmorphism design a
 - **Theme**: next-themes (dark/light mode)
 - **Language**: TypeScript
 
-## ✨ Features
+## Features
 
-- 🎨 Glassmorphism UI with neon cyberpunk aesthetics
-- 🌓 Dark/Light mode toggle
-- 🎭 3D particle background animation
-- 📱 Fully responsive design
-- ⚡ Optimized performance
-- 🎬 Smooth animations with Framer Motion
-- 🔧 Component-based architecture
-- 📊 Project showcase with category filtering
-- 🌐 Social media integration
+- Glassmorphism UI with neon cyberpunk aesthetics
+- Dark/Light mode toggle
+- 3D particle background animation
+- Fully responsive design
+- Optimized performance
+- Smooth animations with Framer Motion
+- Component-based architecture
+- Project showcase with category filtering
+- Social media integration
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 portfolio-hy/
@@ -55,7 +55,7 @@ portfolio-hy/
     └── data.ts            # Structured personal data
 ```
 
-## 🛠️ Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -75,14 +75,14 @@ npm run dev
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## 📦 Build for Production
+## Build for Production
 
 ```bash
 npm run build
 npm run start
 ```
 
-## 🚀 Deploy to Vercel
+## Deploy to Vercel
 
 ### Option 1: Deploy via Vercel Dashboard (Recommended)
 
@@ -106,7 +106,7 @@ vercel
 
 Follow the prompts to deploy.
 
-## 🎨 Customization
+## Customization
 
 ### Update Personal Information
 
@@ -129,11 +129,11 @@ Edit `app/globals.css` to modify:
 
 Edit `app/page.tsx` to add or remove sections from the homepage.
 
-## 📝 License
+## License
 
 This project is open source and available under the MIT License.
 
-## 👤 Author
+## Author
 
 **Nguyễn Khang Hy (HyIsNoob)**
 
@@ -143,4 +143,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-Built with ❤️ using Next.js, TailwindCSS, and Three.js
+Built with Next.js, TailwindCSS, and Three.js
