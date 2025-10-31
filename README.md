@@ -1,36 +1,146 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website - HyIsNoob
 
-## Getting Started
+Modern portfolio website built with Next.js 14, featuring glassmorphism design and neon cyberpunk aesthetics with 3D particle effects.
 
-First, run the development server:
+## 🚀 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Framework**: Next.js 14 (App Router)
+- **Styling**: TailwindCSS with custom cyberpunk theme
+- **3D Graphics**: Three.js with React Three Fiber
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Theme**: next-themes (dark/light mode)
+- **Language**: TypeScript
+
+## ✨ Features
+
+- 🎨 Glassmorphism UI with neon cyberpunk aesthetics
+- 🌓 Dark/Light mode toggle
+- 🎭 3D particle background animation
+- 📱 Fully responsive design
+- ⚡ Optimized performance
+- 🎬 Smooth animations with Framer Motion
+- 🔧 Component-based architecture
+- 📊 Project showcase with category filtering
+- 🌐 Social media integration
+
+## 📂 Project Structure
+
+```
+portfolio-hy/
+├── app/                    # Next.js app directory
+│   ├── layout.tsx         # Root layout with theme provider
+│   ├── page.tsx           # Main homepage
+│   └── globals.css        # Global styles & custom CSS
+├── components/
+│   ├── 3d/                # Three.js components
+│   │   └── ParticlesBackground.tsx
+│   ├── sections/          # Page sections
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Skills.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Social.tsx
+│   │   └── Contact.tsx
+│   ├── ui/                # Reusable UI components
+│   │   ├── Button.tsx
+│   │   ├── Card.tsx
+│   │   ├── Section.tsx
+│   │   └── SectionTitle.tsx
+│   ├── Navbar.tsx
+│   ├── Footer.tsx
+│   ├── ThemeProvider.tsx
+│   └── ThemeToggle.tsx
+└── lib/
+    └── data.ts            # Structured personal data
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+```bash
+git clone https://github.com/HyIsNoob/portfolio-hy.git
+cd portfolio-hy
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Install dependencies:
+```bash
+npm install
+```
 
-## Learn More
+3. Run development server:
+```bash
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Build for Production
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run build
+npm run start
+```
 
-## Deploy on Vercel
+## 🚀 Deploy to Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Option 1: Deploy via Vercel Dashboard (Recommended)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Go to [vercel.com](https://vercel.com)
+2. Sign in with GitHub
+3. Click "Add New Project"
+4. Import `HyIsNoob/portfolio-hy` repository
+5. Configure project:
+   - **Framework Preset**: Next.js
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `.next`
+6. Click "Deploy"
+
+### Option 2: Deploy via Vercel CLI
+
+```bash
+npm install -g vercel
+vercel login
+vercel
+```
+
+Follow the prompts to deploy.
+
+## 🎨 Customization
+
+### Update Personal Information
+
+Edit `lib/data.ts` to update:
+- Personal info
+- Skills
+- Projects
+- Social links
+- Achievements
+- Goals
+
+### Customize Theme Colors
+
+Edit `app/globals.css` to modify:
+- Neon colors (cyan, magenta, purple, etc.)
+- Glass effect styling
+- Custom utilities
+
+### Add/Remove Sections
+
+Edit `app/page.tsx` to add or remove sections from the homepage.
+
+## 📝 License
+
+This project is open source and available under the MIT License.
+
+## 👤 Author
+
+**Nguyễn Khang Hy (HyIsNoob)**
+
+- GitHub: [@HyIsNoob](https://github.com/HyIsNoob)
+- YouTube: [@hyisnoob1102](https://youtube.com/@hyisnoob1102)
+- Email: khanghyomni@gmail.com
+
+---
+
+Built with ❤️ using Next.js, TailwindCSS, and Three.js
