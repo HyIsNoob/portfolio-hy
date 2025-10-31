@@ -82,30 +82,6 @@ npm run build
 npm run start
 ```
 
-## Deploy to Vercel
-
-### Option 1: Deploy via Vercel Dashboard (Recommended)
-
-1. Go to [vercel.com](https://vercel.com)
-2. Sign in with GitHub
-3. Click "Add New Project"
-4. Import `HyIsNoob/portfolio-hy` repository
-5. Configure project:
-   - **Framework Preset**: Next.js
-   - **Build Command**: `npm run build`
-   - **Output Directory**: `.next`
-6. Click "Deploy"
-
-### Option 2: Deploy via Vercel CLI
-
-```bash
-npm install -g vercel
-vercel login
-vercel
-```
-
-Follow the prompts to deploy.
-
 ## Customization
 
 ### Update Personal Information
